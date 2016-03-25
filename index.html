@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MAP672 Portfolio Example</title>
+
+<meta name=‘viewport’ content=‘initial-scale=1,maximum-scale=1,user-scalable=no’ />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />    
+<link href='http://fonts.googleapis.com/css?family=Imprima' rel='stylesheet' type='text/css'>
+<style>
+    
+body {  
+    background: #f5f5f5;   
+    font-family: Imprima, sans-serif;
+}   
+    
+     header { 
+        width: 100%;
+        min-width: 800px;
+        margin: 0 auto;
+        background: steelblue;
+        padding: 15px 0 20px;
+    }
+h1 { 
+    font-family: Dosis, sans-serif;
+    color: #375671; 
+    width: 80%;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+h2 { 
+    font-family: Dosis, sans-serif;
+    color: #375671;
+    width: 80%;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+        h3 {
+        font-family: Dosis, sans-serif;
+        color: #003d71
+    }
+    p { 
+        font-size: .9em; 
+        color: #375671; 
+    }
+    ul {
+        list-style-type: none; 
+        font-size: .9em; 
+        color: #375671; 
+        line-height: 1.6em;
+    }
+    a, a:visited {   
+        color: #003d71;
+    }
+    
+    .project {
+    width: 80%;
+    min-width: 800px;
+    height: 100%;
+    margin: 35px auto;
+}
+.project:after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+.project-image {
+    width: 388px;
+    height: 240px;
+    background: white;
+    float: left;
+    margin-right: 20px;
+    border: 2px solid #dddddd;
+}
+    
+</style>
+</head>
+
+<body> 
+
+    <header>
+    <h1>MAP672: Programming for Web Mapping</h1>
+    <h2>Web Cartography at the University of Kentucky</h2>
+</header>
+    
+    <p>Hello World! I’m going to be a portfolio page.</p>
+    
+    
+    <section class="project">
+        <a target = '_blank' href="https://maptimelou.cartodb.com/viz/0e5ceb0c-a539-11e5-aa7c-0e5db1731f59/public_map"> <img src="images/violations_small.png" alt=""  class="project-image"></a>
+    <h3>EPA Violations in Kentucky, 2010-2015</h3>
+    <p>This map depicts the location of 614 violations reported by the Environmental Protection Agency in Kentucky since 2010. The data is from Violation Tracker, which calls itself the “the first national search engine on corporate misconduct.”</p>
+    <p>245 locations were geocoded with the provided address, 198 locations were derived from the provided coordinates, and 171 locations were approximated by zip code.</p>
+    <ul>
+        <li>See the map: <a target = '_blank' href="https://maptimelou.cartodb.com/viz/0e5ceb0c-a539-11e5-aa7c-0e5db1731f59/map"> EPA Violations in Kentucky, 2011-2015</a></li>
+        <li>Data Source: <a target = '_blank' href="http://violationtracker.goodjobsfirst.org/prog.php?agency_sum=EPA&hq_id_sum=Kentucky"> Violation Tracker </a></li>
+    </ul>
+</section>
+    
+  <section class="project">
+   <a target = '_blank' href="#"><img src="images/hello-kitty.png" alt="Hello Kitty Proportional Symbol Map"  class="project-image" /></a>
+    <h3><a target = '_blank' href="#">Hello Kitty Proportional Symbol Map</a></h3>
+    <p>This map was built with custom JavaScript code drawing upon the Leaflet JavaScript Library, bla bla bla</p>
+    <ul>
+        <li>See the map: <a target = '_blank'  href="#">Hello Kitty Proportional Symbol Map</a></li>
+        <li>Data Source: <a target = '_blank'  href="https://www.eia.gov/electricity/data/detail-data.html">County Health Rankings &amp; Roadmaps</a></li>
+    </ul>
+</section>  
+    
+</body>
+</html>
